@@ -1,0 +1,127 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .header h1 {
+    font-size: 4rem;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .header p {
+    font-size: 1.3rem;
+    margin-top: 15px;
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Features Section */
+  .intro {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .feature {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature h3 {
+    font-size: 1.7rem;
+    color: #28a745;
+    margin-top: 15px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* CTA Section */
+  .cta {
+    background-color: #28a745;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+  
+  .cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #28a745;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+    color: white;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 
+  }
