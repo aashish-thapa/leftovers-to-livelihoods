@@ -3,6 +3,8 @@
 **Leftovers to Livelihoods (L2L)** is a simple yet impactful solution to reduce food waste and support communities. This app connects restaurants and households with surplus food to local food banks, community organizations, or needy individuals. It also offers recipe suggestions to households for efficient use of ingredients.
 
 ---
+![image](https://github.com/user-attachments/assets/015afc66-a8f5-4252-973b-d9fc9a7dff4c)
+
 
 ## 🚀 Features
 
